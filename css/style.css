@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Nunito:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-green: #066F14;
+    --color-background: #ECECEC;
+    --color-text: #1A1A1A;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans','Nunito', sans-serif;
+    background-color: var(--color-black);
+    overflow-x: hidden;
+}
+
+.header__container {
+    max-width: 1152px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 39px;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo__text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--color-text);
+}
+
+.header {
+    margin-bottom: 44px;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.nav__list__a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1A1A1A;
+}
+
+.header__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.header__button__login {
+    font-family: 'DM Sans';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1A1A1A;
+}
+
+.header__button__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    background: #066F14;
+    border-radius: 4px;
+    /*Text*/
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+/*Основной контент*/
+
+.basic {
+    margin-bottom: 76px;
+}
+
+.basic__container {
+    max-width: 1275px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.basic__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.basic__elemone {
+    display: flex;
+    flex-direction: column;
+    margin-top: 66px;
+}
+
+.basic__elemone__text {
+    max-width: 548px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 92px;
+    color: var(--color-text);
+    padding-bottom: 24px;
+}
+
+.basic__elemone__title {
+    max-width: 504px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4A4A4A;
+    padding-bottom: 40px;
+}
+
+.basic__elemone__button__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    max-width: 160px;
+    background: #066F14;
+    border-radius: 4px;
+    /*Текст*/
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.basic__elemone__statistic {
+    max-width: 548px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.basic__elemone__statistic__onegroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.basic__elemone__statistic__numb {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #001B04;
+}
+
+.basic__elemone__statistic__inf {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1A1A1A;
+}
+
+.basic__elemone__statistic__twogroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.basic__elemone__statistic__threegroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.basic__elemtwo__img {
+    position: relative;
+    display: flex;
+}
+
+/*2 блок*/
+
+.twoblock {
+    margin-bottom: 128px;
+}
+
+.twoblock__container {
+    max-width: 1258px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.twoblock__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twoblock__element__one {
+    display: flex;
+    flex-direction: column;
+}
+
+.twoblock__text {
+    max-width: 389px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #1A1A1A;
+    padding-bottom: 37px;
+}
+
+.twoblock__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.twoblock__link__text {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4A4A4A;
+}
+
+.twoblock__link__btn {
+    display: flex;
+    align-items: center;
+}
+
+.twoblock__set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+}
+
+/*3 Блок*/
+
+.threeblock {
+    margin-bottom: 128px;
+}
+
+.threeblock__container {
+    max-width: 1100px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.threeblock__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.threeblock__img {
+    padding-right: 80px;
+}
+
+.threeblock__content {
+    max-width: 504px;
+}
+
+.threeblock__name {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #066F14;
+    padding-bottom: 12px;
+}
+
+.threeblock__text {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+    padding-bottom: 24px;
+}
+
+.threeblock__title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4A4A4A;
+    padding-bottom: 16px;
+}
+
+.threeblock__subtittle {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4A4A4A;
+    padding-bottom: 36px;
+}
+
+.threeblock__button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 155px;
+    height: 55px;
+    background: #066F14;
+    border-radius: 4px;
+    /*Text*/
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+/*3 блок*/
+.product {
+    margin-bottom: 128px;
+}
+
+.product__container {
+    max-width: 1152px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.product__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product__name {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+    padding-bottom: 24px;
+}
+
+.product__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.product__nav__a {
+    font-family: 'DM Sans';
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1A1A1A;
+    transition: .2s all ease-in-out;
+    padding-bottom: 48px;
+}
+.product__nav__a:hover {
+    color: #066F14;
+}
+
+.product__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.product__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 270px;
+    height: 283px;
+    background-color: #EAF2E5;
+}
+
+#two__color {
+    background-color: #F0EBE6;
+}   
+
+#thtee__color {
+    background-color: #E2ECE4;
+}
+
+#four__color {
+    background-color: #E7EEED;
+}
+
+.product__img {
+    padding-bottom: 7px;
+}
+
+.product__text {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A1A1A;
+    padding-bottom: 10px;
+}
+
+.product__star {
+    padding-bottom: 10px;
+}
+
+.product__price {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A1A1A;
+}
+
+.product__button {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    background: #066F14;
+    border-radius: 4px;
+}
+
+/*Отзыв*/
+.feedback {
+
+}
+
+.feedback__container {
+    max-width: 1152px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.feedback__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.feedback__elem {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__elem__text {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+    padding-bottom: 12px;
+}
+
+.feedback__elem__title {
+    max-width: 502px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4A4A4A;
+    padding-bottom: 43px;
+}
+
+.feedback__elem__back {
+    max-width: 597px;
+    height: 204px;
+    background-color: #066F14;
+}
+
+.feedback__elem__img {
+
+}
