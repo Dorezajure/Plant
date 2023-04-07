@@ -403,13 +403,15 @@ body {
 }
 
 .product__grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 40px;
 }
 
-.product__card {
+.product__grid__card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -473,7 +475,7 @@ body {
 
 /*Отзыв*/
 .feedback {
-
+    margin-bottom: 128px;
 }
 
 .feedback__container {
@@ -499,6 +501,7 @@ body {
     line-height: 50px;
     color: #1A1A1A;
     padding-bottom: 12px;
+    padding-right: 48px;
 }
 
 .feedback__elem__title {
@@ -512,12 +515,186 @@ body {
     padding-bottom: 43px;
 }
 
-.feedback__elem__back {
-    max-width: 597px;
+.feedback__elem__front {  
+    margin-top: 183px;
+    position: absolute;
+    width: 597px;
     height: 204px;
     background-color: #066F14;
+    padding: 20px 25px;
 }
 
-.feedback__elem__img {
+.feedback__elem__front__cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
 
+.feedback__elem__front__cont__block {
+    display: flex;
+    align-items: center;
+}
+
+.feedback__elem__front__cont__block__img {
+    padding-right: 10px;
+}
+
+.feedback__elem__front__cont__block__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__elem__front__cont__block__text {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.feedback__elem__front__cont__block__title {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #D9D9D9;
+}
+
+.feedback__elem__front__explanation {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ECECEC;
+}
+
+/*Блок с почтой*/
+.email {
+    margin-bottom: 79px;
+}
+
+.email__container {
+    max-width: 1040px;
+    height: 320px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.email__wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DFFFE3;
+    padding-right: 10px;
+}
+
+.email__wrapper__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 57px;
+}
+
+.email__wrapper__content__text {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+    padding-bottom: 12px;
+}
+
+.email__wrapper__content__title {
+    max-width: 458px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4A4A4A;
+    padding-bottom: 30px;
+}
+
+.email__wrapper__content__line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    width: 451px;
+    height: 56px;
+    padding: 10px;
+}
+
+.email__wrapper__content__line__txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #C6C0C0;
+    font-size: 18px;
+    transition: 0.4s;
+    line-height: 25px;
+    width: 422px;
+}
+
+.email__wrapper__content__line__btn {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 16px;
+    gap: 10px;
+    width: 98px;
+    height: 40px;
+    background: #066F14;
+    border-radius: 4px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FEFEFE;
+}
+
+/*Блок с картинками*/
+.photo {
+    margin-bottom: 128px;
+}
+
+.photo__container {
+    max-width: 1152px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.photo__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo__content__text {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    color: #1A1A1A;
+    padding-bottom: 12px;
+}
+
+.photo__content__title {
+    max-width: 544px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4A4A4A;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.photo__grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
